@@ -35,7 +35,7 @@ public class Demo_Test {
 
   @Test
   public void firstTest() {
-    $(By.xpath("//android.widget.CheckBox[@content-desc=\"users\"])").click();
+    $(By.xpath("//android.widget.CheckBox[@content-desc=\"users\"]")).click();
   }
 
 
