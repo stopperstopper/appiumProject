@@ -16,6 +16,7 @@ public abstract class SeleniumWebDriver implements WebDriverProvider {
   public static WebDriver createDriver() {
     AppiumDriver driver = null;
     UiAutomator2Options options = new UiAutomator2Options();
+    dir=System.getProperty("user.dir");
     options.setDeviceName("Nexus_S_API_22");
     options.setPlatformName("Android");
     options.setPlatformVersion("5.1.1");
