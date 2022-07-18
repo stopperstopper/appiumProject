@@ -6,7 +6,7 @@ import lombok.Getter;
 @AllArgsConstructor
 @Getter
 public class UserEntity {
-  private final Long id;
+  private final Int id;
   private final String name;
   private final String grade;
 }
