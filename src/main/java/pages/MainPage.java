@@ -16,7 +16,7 @@ public  class MainPage extends BasePage {
     private List<WebElement> allUsers;
 
 
-  @FindBy(xpath = "//android.widget.CheckBox[@content-desc=\"users\"])")
+  @FindBy(xpath = "//android.widget.CheckBox[@content-desc=\"users\"]")
     private List<WebElement> userCardLink;
   public List<WebElement> findUsers(){
     return allUsers;
